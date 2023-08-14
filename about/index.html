@@ -16,25 +16,31 @@
   <meta name="author" content="磊石">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Test测试">
+    <meta name="description" content="感谢来访我的博客！ 从 2023 年初我就计划写博客，直到 8 月份终于建好了这个小站，发出了第一篇文章。 这个博客主要用来记录生活和感想。我是一个不喜欢发微博和朋友圈的人，因为一方面受限于字数，很难系统地去表达所有的想法；另一方面，每当发一条新的推文，总会期待特定人的评论和点赞，这种很强的目的性使得自己很心累。 所以，我关了微博和朋友圈，转到了这个自己的小窝——在这里可以静静地思考、记录。 感谢">
 <meta property="og:type" content="website">
-<meta property="og:title" content="about">
+<meta property="og:title" content="关于">
 <meta property="og:url" content="http://xytaro.com/about/index.html">
 <meta property="og:site_name" content="未知の超新星">
-<meta property="og:description" content="Test测试">
+<meta property="og:description" content="感谢来访我的博客！ 从 2023 年初我就计划写博客，直到 8 月份终于建好了这个小站，发出了第一篇文章。 这个博客主要用来记录生活和感想。我是一个不喜欢发微博和朋友圈的人，因为一方面受限于字数，很难系统地去表达所有的想法；另一方面，每当发一条新的推文，总会期待特定人的评论和点赞，这种很强的目的性使得自己很心累。 所以，我关了微博和朋友圈，转到了这个自己的小窝——在这里可以静静地思考、记录。 感谢">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-08-14T06:20:11.000Z">
-<meta property="article:modified_time" content="2023-08-14T06:20:47.911Z">
+<meta property="article:modified_time" content="2023-08-14T08:17:17.317Z">
 <meta property="article:author" content="磊石">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>about - 未知の超新星</title>
+  <title>关于 - 未知の超新星</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
 
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
 
 
 
@@ -202,7 +208,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="about"></span>
+            <span id="subtitle" data-typed-text="关于"></span>
           
         </div>
 
@@ -224,18 +230,61 @@
         <div id="board"
           >
           
+            <div class="about-avatar">
+              <img src="/img/avatar.png" srcset="/img/loading.gif" lazyload class="img-fluid" alt="avatar">
+            </div>
+          
           <div class="container">
             <div class="row">
               <div class="col-12 col-md-10 m-auto">
                 
 
-<article class="page-content">
-  <h2 id="Test"><a href="#Test" class="headerlink" title="Test"></a>Test</h2><p>测试</p>
+<div class="text-center">
+  <div class="about-info">
+    <div class="about-name">磊石</div>
+    <div class="about-intro">搞科研 / 微纳米技术 / 旅行爱好者  / in Nagoya (Japan)</div>
+    <div class="about-icons">
+      
+    </div>
+  </div>
+</div>
+
+<article class="about-content page-content mt-5">
+  <div class="markdown-body">
+    <p>感谢来访我的博客！</p>
+<p>从 2023 年初我就计划写博客，直到 8 月份终于建好了这个小站，发出了第一篇文章。</p>
+<p>这个博客主要用来记录生活和感想。<br>我是一个不喜欢发微博和朋友圈的人，因为一方面受限于字数，很难系统地去表达所有的想法；另一方面，每当发一条新的推文，总会期待特定人的评论和点赞，这种很强的目的性使得自己很心累。</p>
+<p>所以，我关了微博和朋友圈，转到了这个自己的小窝——在这里可以静静地思考、记录。</p>
+<p>感谢能在这里和你相遇。</p>
+
+  </div>
+
+  
+</article>
+
+
+
 
 
   
 
-</article>
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
 
 
 
@@ -337,6 +386,59 @@
 
 
 
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
 
   <script  src="/js/local-search.js" ></script>
 
